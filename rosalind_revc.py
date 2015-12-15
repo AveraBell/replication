@@ -18,4 +18,5 @@ for x in range(0,len(a)):
 for x in range(0,len(a)):
     if a[x]=="D":
         a=a.replace('D','C')
-print (a)
+s=a[len(a):0:-1]+a[0]
+print (s)
